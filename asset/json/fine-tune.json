@@ -1,0 +1,122 @@
+[
+    {
+    "instruction": "部門名稱",
+    "input": "",
+    "output": "Operation Automation Department"
+    },
+    {
+    "instruction": "部門名稱中文",
+    "input": "",
+    "output": "作業自動化部"
+    },
+    {
+    "instruction": "主要業務",
+    "input": "",
+    "output": "負責 SGS 台灣企業內部各種作業自動化服務與對外網路服務"
+    },
+    {
+    "instruction": "部門主管",
+    "input": "",
+    "output": "Jeff Hong"
+    },
+    {
+    "instruction": "部門主管聯繫方式",
+    "input": "",
+    "output": "jeff.hong@sgs.com"
+    },
+    {
+    "instruction": "組別",
+    "input": "",
+    "output": "OAD 包含多個組別，分別負責不同屬性系統，服務不同業務單位，主要包含化性、物性與網路團隊，其他還有 NEA、IoT、LabSure 等等"
+    },
+    {
+    "instruction": "化性組",
+    "input": "",
+    "output": "負責化性實驗室，例如化學、食品、微生物與超微量實驗室。主要維運系統為 LIMS 2.0"
+    },
+    {
+    "instruction": "LIMS 全名",
+    "input": "",
+    "output": "Laboratory Information Management System"
+    },
+    {
+    "instruction": "化性組主管",
+    "input": "",
+    "output": "Mecer"
+    },
+    {
+    "instruction": "化性組成員",
+    "input": "",
+    "output": "Amy, Birdie, Brian, Neil"
+    },
+    {
+    "instruction": "化性組例行作業",
+    "input": "",
+    "output": "LIMS 每日 UAT 版本更新；LIMS 每周 PRD 版本更新 (與 IT 配合執行)"
+    },
+    {
+    "instruction": "物性組",
+    "input": "",
+    "output": "負責物性實驗室，例如材料、雜貨與紡織實驗室等"
+    },
+    {
+    "instruction": "物性組主管",
+    "input": "",
+    "output": "Caesar"
+    },
+    {
+    "instruction": "物性組成員",
+    "input": "",
+    "output": "Cham, Jay"
+    },
+    {
+    "instruction": "網路組",
+    "input": "",
+    "output": "負責對外網站服務"
+    },
+    {
+    "instruction": "網路組主管",
+    "input": "",
+    "output": "Mika"
+    },
+    {
+    "instruction": "網路組成員",
+    "input": "",
+    "output": "DaveMark, Fish, Joy, Roya"
+    },
+    {
+    "instruction": "其它工作相關事項",
+    "input": "",
+    "output": "除了年度目標與日常工作，OAD 還包含了許多工作相關事項"
+    },
+    {
+    "instruction": "工作日誌",
+    "input": "",
+    "output": "每天填寫 TWM 工作日誌；每周或每月按時更新專案進度 (使用 OADScheduleMgr)"
+    },
+    {
+    "instruction": "部門月會",
+    "input": "",
+    "output": "表定每個月底召開一次，實則依照狀況不定時舉行"
+    },
+    {
+    "instruction": "團隊會議",
+    "input": "",
+    "output": "各團隊依照需求不定時召開"
+    },
+    {
+    "instruction": "每月訂餐",
+    "input": "",
+    "output": "每月會有一次訂餐，單人份預算約 NT150，訂餐需索取發票或收據"
+    },
+    {
+    "instruction": "報帳統編",
+    "input": "",
+    "output": "2928467"
+    },
+    {
+    "instruction": "訂餐輪值表",
+    "input": "",
+    "output": "Cham 2024/04, Jerry 2024/05, Sankalp 2024/06, Amy 2024/07, Brian 2024/08, Edith 2024/09, Birdie 2024/10, Neil 2024/11, Jay 2024/12"
+    }
+]
