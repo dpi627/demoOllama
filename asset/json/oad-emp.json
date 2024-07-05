@@ -1,0 +1,170 @@
+﻿[
+    {
+      "employeeId": "T06210",
+      "nameZh": "胡敏惠",
+      "nameEn": "Amy Hu",
+      "department": "OAD-Automation-TPE",
+      "extension": "1414"
+    },
+    {
+      "employeeId": "T12030",
+      "nameZh": "林政謙",
+      "nameEn": "Cham Lin",
+      "department": "OAD-Automation-TPE",
+      "extension": "1419"
+    },
+    {
+      "employeeId": "T19455",
+      "nameZh": "邱禾昇",
+      "nameEn": "Birdie",
+      "department": "OAD-Automation-TPE",
+      "extension": "1418"
+    },
+    {
+      "employeeId": "T20032",
+      "nameZh": "呂學明",
+      "nameEn": "Caesar Lu",
+      "department": "OAD-Automation-TPE",
+      "extension": "1434"
+    },
+    {
+      "employeeId": "T20284",
+      "nameZh": "張巍瀛",
+      "nameEn": "Chang, Sankalp",
+      "department": "OAD-Automation-TPE",
+      "extension": "1437"
+    },
+    {
+      "employeeId": "T21495",
+      "nameZh": "簡介緯",
+      "nameEn": "Neil Jian",
+      "department": "OAD-Automation-TPE",
+      "extension": "1432"
+    },
+    {
+      "employeeId": "T24045",
+      "nameZh": "徐慶齡",
+      "nameEn": "Adam Hsu",
+      "department": "OAD-Automation-TPE",
+      "extension": "1175"
+    },
+    {
+      "employeeId": "T24302",
+      "nameZh": "陳庭楷",
+      "nameEn": "Kyle Chen",
+      "department": "OAD-Automation-TPE",
+      "extension": "1415"
+    },
+    {
+      "employeeId": "T24317",
+      "nameZh": "盧星宇",
+      "nameEn": "Eric-xy_Lu",
+      "department": "OAD-Automation-TPE",
+      "extension": "1176"
+    },
+    {
+      "employeeId": "T99131",
+      "nameZh": "洪健富",
+      "nameEn": "Jeff Hong",
+      "department": "OAD-Automation-TPE",
+      "extension": "1410"
+    },
+    {
+      "employeeId": "T17548",
+      "nameZh": "徐世杰",
+      "nameEn": "Jay Hsu",
+      "department": "OAD-Automation-TPE",
+      "extension": "1439"
+    },
+    {
+      "employeeId": "T18038",
+      "nameZh": "李威德",
+      "nameEn": "Brian Li",
+      "department": "OAD-Automation-TPE",
+      "extension": "1429"
+    },
+    {
+      "employeeId": "T18155",
+      "nameZh": "吳典輯",
+      "nameEn": "Mecer Wu",
+      "department": "OAD-Automation-TPE",
+      "extension": "1412"
+    },
+    {
+      "employeeId": "T18053",
+      "nameZh": "林彥瑜",
+      "nameEn": "Fish Lin",
+      "department": "OAD-Web Service-TPE",
+      "extension": "1413"
+    },
+    {
+      "employeeId": "T18320",
+      "nameZh": "蘇榮誠",
+      "nameEn": "Davemark Su",
+      "department": "OAD-Web Service-TPE",
+      "extension": "1420"
+    },
+    {
+      "employeeId": "T16283",
+      "nameZh": "薛冠滋",
+      "nameEn": "Roya Hsueh",
+      "department": "OAD-Web Service-TPE",
+      "extension": "1411"
+    },
+    {
+      "employeeId": "T05074",
+      "nameZh": "林銘翔",
+      "nameEn": "Mika Lin",
+      "department": "OAD-Web Service-TPE",
+      "extension": "1416"
+    },
+    {
+      "employeeId": "T17483",
+      "nameZh": "林秀宜",
+      "nameEn": "Joy Lin",
+      "department": "OAD-Web Service-TPE",
+      "extension": "1431"
+    },
+    {
+      "employeeId": "T17156",
+      "nameZh": "李佳曄",
+      "nameEn": "Jerry Li",
+      "department": "OAD-NEA Improvement-TPE",
+      "extension": "1433"
+    },
+    {
+      "employeeId": "T18197",
+      "nameZh": "劉昭成",
+      "nameEn": "Lawrence Liu",
+      "department": "OAD-NEA Improvement-TPE",
+      "extension": "1417"
+    },
+    {
+      "employeeId": "T12415",
+      "nameZh": "羅春梅",
+      "nameEn": "Hemi Lo",
+      "department": "OAD-Labsure-TPE",
+      "extension": "1630"
+    },
+    {
+      "employeeId": "T12657",
+      "nameZh": "柯媛惠",
+      "nameEn": "Coco Ko",
+      "department": "OAD-Labsure-TPE",
+      "extension": "1595"
+    },
+    {
+      "employeeId": "T15080",
+      "nameZh": "陳志銘",
+      "nameEn": "Matt Chen",
+      "department": "OAD-Labsure-TPE",
+      "extension": "1631"
+    },
+    {
+      "employeeId": "T16143",
+      "nameZh": "王婉君",
+      "nameEn": "Jocelyn Wang",
+      "department": "OAD-Labsure-TPE",
+      "extension": "1552"
+    }
+  ]
