@@ -27,7 +27,8 @@ footer: Edge `AI`
 - Open Source Model
 - Ollama
 - Open WebUI
-- Fine-Tuning
+- Unsloth
+- Other LLM Tools
 
 ---
 
@@ -57,7 +58,11 @@ footer: Edge `AI`
 |**安全性**|可檢查漏洞|依賴提供者|
 |**社群支援**|大量社群、更新快|無|
 |**依賴性**|不依賴單一提供者|高度依賴提供者|
-|**舉例**|llama3、gemma2、phi3|gpt4o、sonnet|
+|**舉例**|`llama3` `gemma2` `phi3`|`gpt4o` `sonnet`|
+
+---
+
+![w:1200](/asset/img/history.png)
 
 ---
 
@@ -84,12 +89,14 @@ https://ollama.com/
 |**llama3**|**mistral**|**gemma2**|**phi3**|**qwen2**|
 |`8B` `70B`|`7B`|`9B` `27B`|`3B` `14B`|`0.5B` `1.5B` `7B` `72B`|
 ###
-> `B` = `Billion` 表示模型參數(Parameters)，越高表現越佳，GPT-3 為 `175B`
+> `B` = `Billion` 十億，代表模型參數(Parameters)數量，例如 GPT-3 為 `175B`
+
 ---
 
 ![bg left:30%](https://picsum.photos/720?image=936)
 
 # **O**llama - CLI
+###
 
 ```sh
 # 檢視版本
@@ -104,6 +111,35 @@ ollama run llama3 "Why is the sky blue?"
 # 其他指令查詢
 ollama -h
 ```
+###
+
+>其他指令操作可參考[線上說明](https://github.com/ollama/ollama?tab=readme-ov-file#cli-reference)
+
+---
+
+![bg right:30%](https://picsum.photos/720?image=933)
+
+# **O**llama - API
+
+###
+
+```sh
+# 使用 curl 呼叫 API
+
+curl -X POST http://localhost:11434/api/generate -d '{
+  "model": "llama3",
+  "prompt":"Why is the sky blue?"
+ }'
+```
+
+###
+
+- 詳細 API 端點資訊請 [參考文件](https://github.com/ollama/ollama/blob/main/docs/api.md)
+- 也可使用 `Postman` 或 `*.http` 測試
+
+###
+
+>💡其他應用程式可透過 API 與 model 互動
 
 ---
 
@@ -111,11 +147,69 @@ ollama -h
 
 # Open Web**UI**
 
+https://openwebui.com/
+
+- 支援 Ollama = 可用開源 LLM
+- 支援 OpenAI = 可用 GPT4o
+- 類似 ChatGPT，學習曲線低
+- 支援檔案上傳、檔案管理保存
+- 支援RAG，可搜尋網頁或檔案
+- 可自訂 AI 模型(類似GPTs)
+- 支援語音輸入與輸出
+- 支援多模型提問
+- 可上傳自訓練模型(GGUF)
+
 ---
 
-![bg right:50%](https://picsum.photos/720?image=959)
+<!-- _class: invert -->
 
-# Demo
+![bg fit](../asset/img/demoOpenWebUI.png)
+
+---
+
+![bg left:20%](https://picsum.photos/720?image=912)
+
+# RAG **vs** Fine-Tuning
+
+🧑‍🎨`小明`收藏了整套哈利波特，整套閱讀過，大概知道章節與內容
+
+👩‍🦰`小美`熟讀了整套哈利波特，內容到背如流，後來將書捐贈出售
+
+👨`小華`請教🧑‍🎨`小明`哈利波特問題，🧑‍🎨`小明`快速翻閱書籍找到答案
+
+👨`小華`請教👩‍🦰`小美`哈利波特問題，👩‍🦰`小美`不加思索立刻回答
+
+🧑‍🎨`小明`就是 **RAG** (Retrieval-Augmented Generation)
+
+👩‍🦰`小美`就是 **Fine-Tuning**
+
+###
+
+>直到 J.K.羅琳 決定推出哈利波特前傳系列叢書.... 🧑‍🎨 vs 👩‍🦰
+
+---
+
+![bg right:40%](https://picsum.photos/720?image=915)
+
+![w:400](../asset/img/unsloth.png)
+
+https://unsloth.ai/
+
+- 快速微調和訓練 LLM 的開源工具
+- 訓練速度較其它工具快，使用記憶體低
+- 支援 `NVIDIA` `AMD` `Intel` 等 GPU
+- 在 Google Colab 即可免費訓練*
+- GGUF 可導入 OpenWebUI 使用
+
+###
+
+> *⚠️僅限單CPU，模型也不能太大
+
+---
+
+<!-- _class: invert -->
+
+![bg fit](../asset/img/demoUnsloth.png)
 
 ---
 
