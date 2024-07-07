@@ -250,7 +250,7 @@ https://unsloth.ai/
 ![bg right 80% vertical](../asset/img/lmstudio.jpg)
 ![bg fit](../asset/img/anythingllm.png)
 
-# **Two** more things.... 
+# LLM **Tools** 
 
 https://lmstudio.ai/
 https://useanything.com/
@@ -260,8 +260,24 @@ https://useanything.com/
 - Chat with Model
 - Support OpenAI API
 - Support Azure OpenAI Service
-###
->find more LLMs in [here](https://huggingface.co/) ![h:40](../asset/img/huggingface_logo-noborder.svg)
+
+---
+
+![bg left:40%](https://camo.githubusercontent.com/8a014dbdd22583bf975db82aa8e8fff67972dbee9b6b5432392f53865dc6f605/68747470733a2f2f63646e2d75706c6f6164732e68756767696e67666163652e636f2f70726f64756374696f6e2f75706c6f6164732f3564663963373865646136643033313166643364353431662f766c667635734862743468427862335977554c6c552e706e67)
+
+# Taiwan Llama 3
+
+https://github.com/MiuLab/Taiwan-LLM
+
+- 台大資工　林彥廷博士製作
+- 基於 Meta Llama-3 模型
+- 使用繁體中文語料庫 Fine-Tuning
+- TMLU 測試 `70B` 優於 Claude3、GPT4o
+- 於台灣本地知識、法律等領域表現優異
+- 整體性能優於原始 Llama 3 模型
+- 企業(單次)訓練成本仍然偏高
+
+>find more LLMs on [HuggingFace](https://huggingface.co/) ![h:40](../asset/img/huggingface_logo-noborder.svg)
 
 ---
 
