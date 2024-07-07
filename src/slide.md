@@ -14,7 +14,6 @@ footer: Edge `AI`
 ```powershell
 🤖 AI processing on local devices
 ```
-
 ##### `OAD` **brian_li**
 
 ---
@@ -28,7 +27,7 @@ footer: Edge `AI`
 - Ollama
 - Open WebUI
 - Unsloth
-- Other LLM Tools
+- LLM Tools
 
 ---
 
@@ -48,7 +47,7 @@ footer: Edge `AI`
 
 ![bg left:30%](https://picsum.photos/720?image=953)
 
-# Open Source **vs** Close Models
+# **Open** Source `vs` **Close** Models
 
 |特點|開源模型|閉源模型|
 |:-:|:-:|:-:|
@@ -62,7 +61,7 @@ footer: Edge `AI`
 
 ---
 
-![w:1200](/asset/img/history.png)
+![w:1180](/asset/img/history.png)
 
 ---
 
@@ -78,6 +77,24 @@ https://ollama.com/
 - 允許微調模型或創建自定義模型
 - 支援 CLI 操作
 - 提供 REST API
+
+---
+
+![bg left:40%](https://picsum.photos/720?image=901)
+
+# Risks of **Close** Model
+
+OpenAI `GPT4o`、Anthropic `Sonnet`
+
+- **無法避免資料訓練**
+  Prompt
+  Document
+
+- **完全依賴網路**
+  中斷
+  延遲
+
+>⚠️服務商持有控制權
 
 ---
 
@@ -143,7 +160,7 @@ curl -X POST http://localhost:11434/api/generate -d '{
 
 ---
 
-![bg right:50%](https://picsum.photos/720?image=970)
+![bg left:50%](https://picsum.photos/720?image=972)
 
 # Open Web**UI**
 
@@ -163,7 +180,7 @@ https://openwebui.com/
 
 <!-- _class: invert -->
 
-![bg fit](../asset/img/demoOpenWebUI.png)
+![bg fit](https://github.com/open-webui/open-webui/raw/main/demo.gif)
 
 ---
 
@@ -171,21 +188,21 @@ https://openwebui.com/
 
 # RAG **vs** Fine-Tuning
 
-🧑‍🎨`小明`收藏了整套哈利波特，整套閱讀過，大概知道章節與內容
+🧑‍🎨`小明`收藏了整套哈利波特，完整閱讀過，大概知道章節與內容
 
 👩‍🦰`小美`熟讀了整套哈利波特，內容到背如流，後來將書捐贈出售
+###
+👨`小華`請教🧑‍🎨`小明`哈利波特內容，🧑‍🎨`小明`快速查閱找到答案
 
-👨`小華`請教🧑‍🎨`小明`哈利波特問題，🧑‍🎨`小明`快速翻閱書籍找到答案
-
-👨`小華`請教👩‍🦰`小美`哈利波特問題，👩‍🦰`小美`不加思索立刻回答
-
+👨`小華`請教👩‍🦰`小美`哈利波特內容，👩‍🦰`小美`不加思索立刻回答
+###
 🧑‍🎨`小明`就是 **RAG** (Retrieval-Augmented Generation)
 
 👩‍🦰`小美`就是 **Fine-Tuning**
 
 ###
 
->直到 J.K.羅琳 決定推出哈利波特前傳系列叢書.... 🧑‍🎨 vs 👩‍🦰
+>後來 J.K.羅琳 決定推出哈利波特新系列.... 🧑‍🎨 `vs` 👩‍🦰將會?
 
 ---
 
@@ -203,7 +220,7 @@ https://unsloth.ai/
 
 ###
 
-> *⚠️僅限單CPU，模型也不能太大
+> *⚠️免費僅限單CPU，模型不可過大
 
 ---
 
@@ -213,6 +230,45 @@ https://unsloth.ai/
 
 ---
 
-![bg right:50%](https://picsum.photos/720?image=949)
+<!-- _backgroundColor: #ddd -->
 
-# Fine-**Tuning**
+### Cost & Usage **Comparison**
+
+|   | `1` ChatGPT | `2` Open Source Model | `3` API |`4` SGSGPT|
+|--:|:-------:|:-----------------:|:---:|:----:|
+|方案|Teams|Ollama + Open WebUI|API + Open WebUI|SGS員工|
+|費用(NT)|23,334/年|50,000(單次)|20,000(單次)|總公司支付|
+|功能|⭐⭐⭐|⭐⭐⭐|⭐⭐⭐|⭐|
+|離線使用|🔴|🟢|🔴|🔴|
+|隱私安全|🔴|🟢|🔴|🟠|
+|優點|功能最新|管控與安全性最高|同`1`但費用更少|安全?|
+|缺點|費用高|依賴硬體、自行維運|自行維運|功能最少|
+|帳號數量|2+|∞|∞|需申請|
+
+---
+
+![bg right 80% vertical](../asset/img/lmstudio.jpg)
+![bg fit](../asset/img/anythingllm.png)
+
+# **Two** more things.... 
+
+https://lmstudio.ai/
+https://useanything.com/
+
+- Support Open Source Models
+- Running model as API service
+- Chat with Model
+- Support OpenAI API
+- Support Azure OpenAI Service
+###
+>find more LLMs in [here](https://huggingface.co/) ![h:40](../asset/img/huggingface_logo-noborder.svg)
+
+---
+
+![bg right:60%](https://picsum.photos/720?image=941)
+
+# 😀 Thank you !
+feel free to ask if you have any other questions.
+##
+> **OAD** / brian_li / #1429
+brian.li@sgs.com
