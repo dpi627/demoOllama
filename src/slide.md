@@ -63,13 +63,13 @@ footer: Edge `AI`
 
 ---
 
-![w:1180](/asset/img/history.png)
+![w:1180](../asset/img/history.png)
 
 ---
 
 ![bg right:50%](https://picsum.photos/720?image=988)
 
-# **O**llama ![h:100](/asset/img/ollama.png)
+# **O**llama ![h:100](../asset/img/ollama.png)
 
 https://ollama.com/
 
@@ -102,7 +102,7 @@ OpenAI `GPT4o`、Anthropic `Sonnet`
 
 # 常見**開源**模型
 
-|![h:100](/asset/img/meta.png)|![h:100](/asset/img/mistrel.png)|![h:120](/asset/img/gemma.webp)|![h:180](/asset/img/phi3.png)|![h:100](/asset/img/qwen.png)|
+|![h:100](../asset/img/meta.png)|![h:100](../asset/img/mistrel.png)|![h:120](../asset/img/gemma.webp)|![h:180](../asset/img/phi3.png)|![h:100](../asset/img/qwen.png)|
 |:-:|:-:|:-:|:-:|:-:|
 |Meta|Mistrel AI|Google|Microsoft|Alibaba|
 |**llama3**|**mistral**|**gemma2**|**phi3**|**qwen2**|
