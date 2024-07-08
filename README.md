@@ -12,7 +12,7 @@
 
 ## 📝PDF簡報
 
-單純看簡報[請按此](/publish/slide.pdf)
+單純看簡報[請按此](publish/slide.pdf)
 
 # 📂 Architecture
 
