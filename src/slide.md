@@ -28,6 +28,8 @@ footer: Edge `AI`
 - Open WebUI
 - Unsloth
 - LLM Tools
+- Taiwan Llama
+- Live Demo
 
 ---
 
@@ -156,7 +158,7 @@ curl -X POST http://localhost:11434/api/generate -d '{
 
 ###
 
->💡其他應用程式可透過 API 與 model 互動
+>💡應用程式可透過 API 與 model 互動
 
 ---
 
@@ -232,7 +234,6 @@ https://unsloth.ai/
 
 <!-- _backgroundColor: #ddd -->
 
-### Cost & Usage **Comparison**
 
 |   | `1` ChatGPT | `2` Open Source Model | `3` API |`4` SGSGPT|
 |--:|:-------:|:-----------------:|:---:|:----:|
@@ -243,7 +244,7 @@ https://unsloth.ai/
 |隱私安全|🔴|🟢|🔴|🟠|
 |優點|功能最新|管控與安全性最高|同`1`但費用更少|安全?|
 |缺點|費用高|依賴硬體、自行維運|自行維運|功能最少|
-|帳號數量|2+|∞|∞|需申請|
+|帳號數量|2|∞|∞|依申請|
 
 ---
 
@@ -260,6 +261,8 @@ https://useanything.com/
 - Chat with Model
 - Support OpenAI API
 - Support Azure OpenAI Service
+
+>At least 8G RAM for `7B` model, 16G for `13B`, and 32G for `33B`
 
 ---
 
@@ -278,6 +281,24 @@ https://github.com/MiuLab/Taiwan-LLM
 - 企業(單次)訓練成本仍然偏高
 
 >find more LLMs on [HuggingFace](https://huggingface.co/) ![h:40](../asset/img/huggingface_logo-noborder.svg)
+
+---
+
+![bg left:40%](https://picsum.photos/720?image=924)
+
+# Home**work**
+
+>🚨自由練習，不強制
+>⚠️注意AI表現會與電腦硬體相關
+
+- 前往以下網址註冊帳號 (需審核)
+  http://10.213.125.140/
+- 嘗試進行幾項測試
+  - 與AI對談，詢問任何問題
+  - 上傳檔案，討論檔案內容
+  - 其他深度操作
+- 安裝一套 LLM Tool，並嘗試使用
+- 嘗試更多的開源模型
 
 ---
 
