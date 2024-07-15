@@ -1,7 +1,8 @@
-﻿![](https://img.shields.io/badge/SGS-OSD-orange) 
+﻿![](https://img.shields.io/badge/SGS-OAD-orange) 
 ![](https://img.shields.io/badge/proj-Edge--AI--Research-purple) 
 ![](https://img.shields.io/badge/api-OpenAI-412991?logo=openai) 
 ![](https://img.shields.io/badge/vc-Gitea-609531?logo=gitea)
+![](https://img.shields.io/badge/vc-GitHub-181717?logo=github)
 ![](https://img.shields.io/badge/vm-Docker-2496ED?logo=docker)
 
 # 🤖 Edge AI 研究報告
